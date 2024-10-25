@@ -56,13 +56,13 @@ podman build -t my_image . && podman run --device nvidia.com/gpu=all my_image
 ```
 
 > **_NOTE:_** It's always nice to get as small image size as possible. That's
-> the purpose of `stage 3` in `Containerfile` - we will get only 300MB image
+> the purpose of `stage 3` in `Containerfile` - we will get only 350MB image
 > from it.
 
 ## 3. Build VM image
 
 ```sh
-gvltctl build -f Containerfile -s 700M --nvidia-drivers
+gvltctl build -f Containerfile -s 750M --nvidia-drivers
 ```
 
 This will produce `disk.img` file, which is a self-contained bootable VM image.
