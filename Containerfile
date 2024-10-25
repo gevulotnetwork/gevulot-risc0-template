@@ -35,7 +35,7 @@ ENV NVCC_APPEND_FLAGS="--gpu-architecture=compute_89 --gpu-code=compute_89,sm_89
 RUN cargo build --features cuda --release
 
 # Copy executable
-RUN cp /template/target/release/host /host
+RUN cp /risc0-template/target/release/host /host
 
 # Stage 3: minimal runtime environment
 FROM docker.io/nvidia/cuda:12.2.2-base-ubuntu20.04
