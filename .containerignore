@@ -1,0 +1,7 @@
+target/
+.git/
+.vscode/
+.gitignore
+Dockerfile
+*.md
+*.img
