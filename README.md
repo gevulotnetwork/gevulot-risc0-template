@@ -14,9 +14,8 @@ Network including building and pinning images, creating tasks etc.
 
 ### Install
 
-```sh
-cargo install --git https://github.com/gevulotnetwork/gvltctl
-```
+Follow [installation instructions](https://github.com/gevulotnetwork/gvltctl?tab=readme-ov-file#pre-built-releases)
+of `gvltctl` tool.
 
 To use `gvltctl build` command you will need some extra binary dependencies:
 
@@ -24,11 +23,12 @@ To use `gvltctl build` command you will need some extra binary dependencies:
 - [`skopeo`](https://github.com/containers/skopeo)
 - [`extlinux`](https://wiki.syslinux.org/wiki/index.php?title=EXTLINUX)
 - [`gcc`](https://gcc.gnu.org/)
+- [`make`](https://www.gnu.org/software/make/)
 
 You can probably install them from your native package manager. Ubuntu example:
 
 ```sh
-apt-get install podman skopeo extlinux gcc
+apt-get install podman skopeo extlinux gcc make
 ```
 
 ### Verify installation
