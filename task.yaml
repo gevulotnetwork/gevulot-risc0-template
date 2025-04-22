@@ -1,0 +1,13 @@
+kind: Task
+version: v0
+spec:
+  image: "<YOUR IMAGE URL>"
+  command: ["/host"]
+  args: []
+  resources:
+    cpus: "16cores"
+    gpus: 0
+    memory: "16GB"
+    time: 0
+  storeStdout: true
+  storeStderr: true
