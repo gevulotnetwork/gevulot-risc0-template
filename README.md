@@ -151,7 +151,7 @@ When the state of your task becomes `Done`, you can collect your outputs. Output
 Firestarter IPFS network and can be fetched from its gateway:
 
 ```sh
-curl https://data.firestarter.gevulot.com/ipfs/YOUR_OUTPUT_CID
+curl https://ipfs.firestarter.gevulot.com/download/YOUR_OUTPUT_CID
 ```
 
 Visit [Firestarter documentation](https://docs.gevulot.com/gevulot-docs/firestarter)
