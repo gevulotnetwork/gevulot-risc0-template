@@ -118,7 +118,7 @@ You can use any storage you want. Upload created `risc0-template.img` and get it
 E.g. if you used Google Cloud, you will get a public URL like this:
 
 ```plaintext
-https://storage.googleapis.com/my-bucket/risc0-template.img
+https://storage.googleapis.com/gevulot-static-assets/risc0-template.img
 ```
 
 Put your URL into `task.yaml` file replacing `<YOUR IMAGE URL>`.
