@@ -6,8 +6,8 @@ spec:
   args: []
   resources:
     cpus: "16cores"
-    gpus: 0
+    gpus: "1gpu"
     memory: "16GB"
-    time: 0
+    time: 120
   storeStdout: true
   storeStderr: true
